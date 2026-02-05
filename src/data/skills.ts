@@ -1,35 +1,24 @@
 export const skills = [
   {
-    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z"/></svg>`,
-    title: "System Design & Architecture",
-    description: "Designing scalable, resilient services, clear boundaries, and data models; pragmatic trade‑offs documented via ADRs/RFCs.",
+    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.89 11.1L9 7.21l1.41-1.41L15.72 11.1l-5.31 5.31L9 15l3.89-3.9zM17 18h-5v-2h5v2z"/></svg>`,
+    title: "Desarrollo WordPress & CMS",
+    description: "Creación y personalización de temas, gestión avanzada con PHP y optimización del ecosistema de plugins para webs escalables.",
   },
   {
-    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 17l-5-5 5-5v3l-2 2 2 2v3zm8-10l5 5-5 5v-3l2-2-2-2V7z"/></svg>`,
-    title: "Full‑Stack Development",
-    description: "End‑to‑end features with React/Next.js, Node.js, and TypeScript, with strong UX, accessibility, and performance.",
+    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>`,
+    title: "Front-End Moderno",
+    description: "Maquetación de interfaces con HTML5, CSS3 y Tailwind. Diseño totalmente Responsive y accesible.",
   },
   {
-    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3a3 3 0 110 6 3 3 0 010-6zm0 6v6m0 0a3 3 0 100 6 3 3 0 000-6zm0 0a3 3 0 10-6 0 3 3 0 006 0zm6 0a3 3 0 11-6 0 3 3 0 016 0z"/></svg>`,
-    title: "APIs & Distributed Systems",
-    description: "Designing REST/GraphQL APIs, background jobs, queues, idempotency, retries, and observability for reliability.",
+    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>`, 
+    title: "Documentación & Starlight",
+    description: "Gestión del conocimiento y documentación técnica de proyectos usando Astro Starlight. Porque un buen código debe ser entendible.",
   },
   {
-    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3C7 3 4 4.79 4 7v10c0 2.21 3 4 8 4s8-1.79 8-4V7c0-2.21-3-4-8-4zm0 2c3.87 0 6 .93 6 2s-2.13 2-6 2-6-.93-6-2 2.13-2 6-2zm0 6c3.87 0 6 .93 6 2s-2.13 2-6 2-6-.93-6-2 2.13-2 6-2z"/></svg>`,
-    title: "Databases & Caching",
-    description: "Schema design, migrations, and performance tuning with Postgres; caching and rate‑limiting with Redis.",
-  },
-  {
-    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm-1 15l-4-4 1.41-1.41L11 14.17l6.59-6.59L19 9l-8 8z"/></svg>`,
-    title: "Testing & CI/CD",
-    description: "Unit, integration, and E2E tests (Jest, Playwright) with GitHub Actions pipelines, preview envs, and quality gates.",
-  },
-  {
-    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 18H6a4 4 0 010-8 5 5 0 019.9-1.5A4.5 4.5 0 1119 18z"/></svg>`,
-    title: "Cloud & DevOps",
-    description: "AWS, Docker, and Terraform; secure deployments, monitoring/alerts, and cost‑aware operations.",
+    icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/></svg>`,
+    title: "Maquetación Visual",
+    description: "Experto en trasladar diseños a la realidad usando constructores como Elementor o Gutenberg. Diseño sitios atractivos y fáciles de navegar.",
   },
 ];
 
 export type Skill = (typeof skills)[number];
-

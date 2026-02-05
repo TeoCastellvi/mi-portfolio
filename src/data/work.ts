@@ -11,73 +11,49 @@ export const workIcons = {
 
 export const work = [
   {
-    title: "Senior Software Engineer",
-    company: "Acme Cloud",
-    region: "United States",
+    title: "Desarrollador Front-end",
+    company: "Jelliby",
+    region: "Barcelona", 
     description:
-      "Led the design and delivery of a multi‑tenant platform, decomposed critical monolith paths into services, improved p95 latency by 40%, defined SLOs and on‑call rotations, and mentored junior engineers.",
+      "Desarrollo y mantenimiento de sitios web implementando temas personalizados de WordPress con Sage. Creación de documentación técnica de proyectos utilizando Astro Starlight.", // [cite: 30, 31]
     technologies: [
-      "TypeScript",
-      "Node.js",
-      "React",
-      "PostgreSQL",
-      "Redis",
-      "AWS",
-      "Docker",
-      "Kubernetes",
-      "Terraform",
-      "GraphQL",
+      "WordPress", 
+      "Sage",  
+      "PHP",  
+      "JavaScript",  
+      "Tailwind CSS",  
+      "Astro Starlight",  
+      "Bitbucket",  
     ],
   },
   {
-    title: "Staff Software Engineer",
-    company: "FinchPay",
-    region: "Global",
+    title: "Desarrollador Full Stack (Prácticas)",
+    company: "Lenium Group", 
+    region: "Barcelona",
     description:
-      "Architected event‑driven payment services with idempotency and retries, introduced Kafka for async processing, enforced API versioning, and drove observability with structured logging and tracing.",
+      "Desarrollo de una aplicación web integral para la optimización de instalaciones fotovoltaicas. Trabajo en equipo aplicando metodologías ágiles (Scrum).", // [cite: 35, 37]
     technologies: [
-      "TypeScript",
-      "NestJS",
-      "Kafka",
-      "PostgreSQL",
-      "Redis",
-      "gRPC",
-      "OpenTelemetry",
-      "AWS",
+      "Laravel", 
+      "PHP",
+      "JavaScript", 
+      "Tailwind CSS", 
+      "Git", 
+      "Scrum", 
     ],
   },
   {
-    title: "Senior Frontend Engineer",
-    company: "Insight Analytics",
-    region: "Europe",
+    title: "Atención al Cliente",
+    company: "Les Topettes", 
+    region: "Barcelona",
     description:
-      "Owned the design system and SSR/ISR strategy, improved Core Web Vitals (LCP/INP) into the green, and shipped accessible UI components with strong tests and story coverage.",
+      "Resolución de incidencias y comunicación efectiva con el cliente. Gestión de objetivos comerciales y trabajo en equipo en entorno retail.", 
     technologies: [
-      "React",
-      "Next.js",
-      "Astro",
-      "Tailwind CSS",
-      "Playwright",
-      "Vitest",
-    ],
-  },
-  {
-    title: "Software Engineer",
-    company: "LaunchPad",
-    region: "Brazil",
-    description:
-      "Built MVPs end‑to‑end: designed REST/GraphQL APIs, set up CI/CD with preview environments, introduced feature flags, and migrated data to Postgres.",
-    technologies: [
-      "Node.js",
-      "Express",
-      "GraphQL",
-      "Supabase",
-      "PostgreSQL",
-      "GitHub Actions",
-      "Docker",
+      "Resolución de problemas", 
+      "Comunicación efectiva", 
+      "Trabajo en equipo", 
+      "Atención al cliente", 
     ],
   },
 ];
 
 export type WorkItem = (typeof work)[number];
-
