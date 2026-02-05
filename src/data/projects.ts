@@ -5,8 +5,8 @@ export const projects = [
         title: "App de Optimización Fotovoltaica",
         techStack: "Laravel • PHP • JavaScript • Tailwind CSS",
         description: "Desarrollo de una aplicación web para la optimización de instalaciones solares durante mi etapa en Lenium Group. Implementé lógica de negocio y componentes de interfaz siguiendo metodologías Scrum.",
-        ctaText: "Código en GitHub →",
-        ctaLink: "https://github.com/TeoCastellvi", 
+        ctaText: "Ver demo →",
+        ctaLink: "https://www.youtube.com/watch?v=C1rj0HTLyck", 
     },
     {
         title: "Portfolio Personal",

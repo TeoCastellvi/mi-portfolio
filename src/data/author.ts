@@ -1,7 +1,7 @@
-import avatar from '../assets/images/sample-avatar.jpg';
+import avatar from '../assets/images/me.jpg';
 
 export const author = {
-  name: 'Site Author',
+  name: 'Teo Castellví',
   avatar,
   url: '#',
 };
